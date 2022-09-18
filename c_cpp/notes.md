@@ -1,0 +1,2 @@
+- Compiler and Linker
+- gcc -o name <name>.c
