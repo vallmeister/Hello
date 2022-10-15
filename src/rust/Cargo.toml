@@ -1,0 +1,12 @@
+[package]
+name = "udemy_beginner_course"
+version = "1.0.0"
+authors = ["Christian D. Valenti"]
+edition = "2021"
+
+[dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "number_guessing_game"
+path = "udemy_beginner_course/number_guessing_game.rs"
