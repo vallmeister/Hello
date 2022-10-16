@@ -14,7 +14,7 @@ fn greater_than(limit: u32)
 fn main() {
     // functions that take functions
     // f(g) { let x = g(); }
-
+    :confused:
     // sum of all even squares < 500
     let limit = 500;
     let mut sum = 0;
