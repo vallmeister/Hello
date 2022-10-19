@@ -1,12 +1,14 @@
 [package]
-name = "udemy_beginner_course"
+name = "rust"
 version = "1.0.0"
-authors = ["Christian D. Valenti"]
+authors = ["Christian D. Valenti <christian.valenti97@gmail.com"]
 edition = "2021"
 
 [dependencies]
-rand = "0.3"
+rand = "0.8.5"
+petgraph = "0.6.2"
+phrases = { path = "udemy_beginner_course/59_building_crate" }
 
 [[bin]]
-name = "number_guessing_game"
-path = "udemy_beginner_course/number_guessing_game.rs"
+name = "consuming_traits"
+path = "udemy_beginner_course/59_main.rs"
