@@ -1,0 +1,12 @@
+[package]
+name = "petgraph_test"
+version = "1.0.0"
+authors = ["Christian D. Valenti <christian.valenti97@gmail.com"]
+edition = "2021"
+
+[dependencies]
+petgraph = "0.6.2"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
