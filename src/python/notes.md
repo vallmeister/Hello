@@ -1,4 +1,3 @@
-- Python Interpreter
 - Lazy Evaluation
 - While-Else
 - for in range
@@ -13,12 +12,8 @@
 - == vs is
 
 # Sequenzielle Datentypen
-- Tupel is an immutable list
 - Verkettung von sequenziellen Datentypen und Multiplikation s * n
 - Auf Index eines sequentiellen Datentyps mit [] zugreifen, auch bei Strings moeglich
-- Negative Indizes um "von hinten" zuzugreifen
-- Teilsequenzen mit [x:y], y ist exklusiv
-- Anfangs- oder Endindex koennen auch weggelassen werden
 - Kopieren eines Datums mit [:]
 - [x:y:z] gibt Schrittweite z an
 - Kann auch mit negativen Schritten kombiniert werden
