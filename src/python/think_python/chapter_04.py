@@ -1,4 +1,5 @@
 from swampy.AmoebaWorld import AmoebaWorld, Amoeba
+import tkinter
 # create the World
 world = AmoebaWorld(interactive=True)
 world.set_end_time('2 * math.pi')
