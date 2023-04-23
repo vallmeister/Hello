@@ -62,3 +62,19 @@ for quiz_num in range(35):
 
     states = list(capitals.keys())
     random.shuffle(states)
+
+    for question_num in range(50):
+        correct_answer = capitals[states[question_num]]
+        wrong_answers = list(capitals.values())
+        del wrong_answers[wrong_answers.index(correct_answer)]
+        wrong_answers = random.sample(wrong_answers, 3)
+        answer_options = wrong_answers + [correct_answer]
+        random.shuffle(answer_options)
+
+        quiz_file.write(f'{question_num + 1}. What is the capital of {states[question_num]}?\n')
+        for i in range(4):
+            quiz_file.write(f" {'ABCD'[i]}. {answer_options[i]}\n")
+            quiz_file.write('\n')
+        answer_file.write(f"{question_num + 1}. {'ABCD'[answer_options.index(correct_answer)]}\n")
+    quiz_file.close()
+    answer_file.close()
